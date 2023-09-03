@@ -49,3 +49,34 @@
     color: #fff;
     font-size: 25px;
   }
+
+  /*Estilos para el main */
+
+.main {
+    margin-top: 80px;
+    padding: 15px 15px 60px;
+  }
+  
+  .main__title {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+  
+  .main__title span {
+    color: #006241;
+  }
+  
+  .main__text {
+    font-weight: bolder;
+    margin-top: 20px;
+  }
+  
+  .main__container-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main__container-logo {
+    display: none;
+  }
+  
