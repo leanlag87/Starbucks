@@ -290,3 +290,133 @@
   .footer__link-contacto {
     color: #086200;
   }
+
+  /* tamaño tablet */
+@media (min-width: 768px) {
+    .header__container-mobile {
+      display: none;
+    }
+  
+    .header__container-login {
+      display: block;
+    }
+  
+    .header__container-login i {
+      color: #fff;
+      font-size: 30px;
+    }
+  
+    .header__nav {
+      display: block;
+    }
+  
+    .main {
+      display: flex;
+      padding: 15px 30px 60px;
+    }
+  
+    .main__container-logo {
+      display: block;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .main__container-text {
+      width: 50%;
+    }
+  
+    .main__logo {
+      width: 80%;
+    }
+  
+    .gallery {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .gallery__imagen {
+      width: 30%;
+      margin-top: 0;
+    }
+  
+    .contact__form {
+      width: 400px;
+    }
+  
+    .cards {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  
+    .cards__card {
+      width: 40%;
+    }
+  
+    .footer {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  /* tamaño desktop */
+  @media (min-width: 1024px) {
+    .main {
+      display: flex;
+      padding: 15px 100px 60px;
+    }
+  
+    .main__logo {
+      width: 350px;
+    }
+  
+    .gallery {
+      justify-content: center;
+    }
+  
+    .gallery__imagen {
+      width: 300px;
+      margin-top: 0;
+      margin-left: 25px;
+    }
+  
+    .contact__form {
+      width: 600px;
+    }
+  
+    .contact {
+      font-size: 18px;
+    }
+  
+    .cards__card {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 350px;
+      height: 450px;
+      margin: 25px 50px;
+    }
+  
+    .cards__card-boton {
+      flex-direction: row;
+    }
+  
+    .cards__card-boton a {
+      margin-left: 7.5px;
+    }
+  
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 200px;
+    }
+  
+    .footer__container-redes,
+    .footer__container-user,
+    .footer__container-contacto {
+      font-size: 40px;
+    }
+  }
